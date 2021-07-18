@@ -1,0 +1,14 @@
+name: stats
+channels:
+  - conda-forge
+dependencies:
+  - fbprophet
+  - pip
+  - pip:
+    - streamlit
+    - plotly
+    - yfinance
+    - yahoo-fin
+    - datetime
+    - yahoo_finance
+
